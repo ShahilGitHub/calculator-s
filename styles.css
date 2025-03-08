@@ -1,0 +1,158 @@
+/* Basic Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #dee6ed;
+    transition: 0.3s ease;
+}
+
+/* Calculator Container */
+.calculator {
+    width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+/* Light Mode */
+.light-mode {
+    background: #fff;
+    color: #333;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Display Screen */
+.display-container {
+    background: #c1d1b6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.display {
+    width: 100%;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+    background: transparent;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.theme-toggle button {
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.3s;
+}
+
+.theme-toggle button:hover {
+    background: #666;
+}
+
+/* Buttons Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Buttons */
+.btn {
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    background: #2e2e2e;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background: #3a3a3a;
+}
+
+/* Equal Button (Wider and Yellow) */
+.equal {
+    background: #f1c40f;
+    color: black;
+    grid-column: span 2;
+}
+
+.equal:hover {
+    background: #e1b00e;
+}
+
+/* Zero Button (Wider) */
+.zero {
+    grid-column: span 2;
+}
+
+/* Backspace Button */
+.backspace {
+    background: #ff4d4d;
+    color: white;
+}
+
+.backspace:hover {
+    background: #e63c3c;
+}
+
+/* Light Mode Styling */
+.light-mode .display-container {
+    background: #d1e8d1;
+}
+
+.light-mode .display {
+    color: #000;
+}
+
+.light-mode .btn {
+    background: #ddd;
+    color: black;
+}
+
+.light-mode .btn:hover {
+    background: #ccc;
+}
+
+.light-mode .equal {
+    background: #ffb400;
+    color: black;
+}
+
+.light-mode .equal:hover {
+    background: #e09b00;
+}
+
+.light-mode .backspace {
+    background: #ff6666;
+}
+
+.light-mode .backspace:hover {
+    background: #ff4d4d;
+}
