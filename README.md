@@ -5,7 +5,6 @@ Dark & Light Mode Toggle 🌙 / ☀️
 Responsive Design 📱
 Backspace Function (⌫)
 Smooth 🚀 UI with Neumorphism Design
-🚀 Live Demo
 
 📂 Project Structure
 graphql
