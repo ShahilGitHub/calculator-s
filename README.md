@@ -10,6 +10,7 @@ Smooth 🚀 UI with Neumorphism Design
 graphql
 Copy
 Edit
+
 📂 calculator-project
 │── 📄 index.html        # Main HTML file
 │── 📄 styles.css        # CSS styling for design
