@@ -17,6 +17,8 @@ Edit
 │── 📄 script.js         # JavaScript for calculator logic
 │── 📄 favicon.png       # Calculator icon for the browser tab
 │── 📄 README.md         # Project documentation
+
+
 🎨 Features
 ✅ Neumorphism UI Design
 ✅ Dark / Light Mode Toggle
