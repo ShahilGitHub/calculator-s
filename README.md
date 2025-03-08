@@ -1,30 +1,23 @@
-🧮 Stylish Calculator Web App
-A modern and stylish Calculator Web Application built with HTML, CSS, and JavaScript, featuring:
+# 🖩 Stylish Calculator
 
-Dark & Light Mode Toggle 🌙 / ☀️
-Responsive Design 📱
-Backspace Function (⌫)
-Smooth 🚀 UI with Neumorphism Design
+A modern, stylish calculator with a **dark/light mode toggle** and a **backspace button**. Built using **HTML, CSS, and JavaScript**.
 
-📂 Project Structure
-graphql
-Copy
-Edit
+## 🚀 Features
+- 📱 Responsive & sleek UI  
+- 🌙/☀️ Dark & Light Mode  
+- 🔙 Backspace button  
+- ➕ Basic arithmetic operations  
 
-📂 calculator-project
-│── 📄 index.html        # Main HTML file
-│── 📄 styles.css        # CSS styling for design
-│── 📄 script.js         # JavaScript for calculator logic
-│── 📄 favicon.png       # Calculator icon for the browser tab
-│── 📄 README.md         # Project documentation
+## 🛠️ Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
 
+## 📌 How to Use
+1. Clone or download the repository.  
+2. Open `index.html` in your browser.  
+3. Use the calculator as needed.  
 
-🎨 Features
-✅ Neumorphism UI Design
-✅ Dark / Light Mode Toggle
-✅ Basic Arithmetic Operations (+, -, ×, ÷)
-✅ Backspace Button (⌫) to remove last digit
-✅ Responsive for Mobile & Desktop
+---
 
-👨‍💻 Author
-Mohamed Shahil – ShahilGitHub
+🎯 **Developed by Mohamed Shahil**  
